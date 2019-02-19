@@ -22,12 +22,12 @@ Screenshots of your Sketch wireframes should go here. Make sure to include all v
 
 ### User Stories
 
-*
-*
-*
-*
-*
-*  
+* As an Epicodus programmer, I want a website that is easier on the eyes that I can look at for long periods of time without irritation.
+* As an Epicodus student, I want to know how long the pages are so I can plan my time around the information.
+* As an Epicodus student, I want to know about videos in my content ahead of time so I can go into a page knowing how long it will take me to get through it.
+* As an Epicodus student, I want to retain easy access to the "Previous" and "Next" buttons at the mobile size so I can have a big window on the side of my display and work along with the homework.
+* As an Epicodus student, I want access to an "Essentials" tab with links to the pages I end up having to dig for when I need to review how to make a .pairs page, etc.
+* As an Epicodus student, I want all the headers collapsible so I'm not overwhelmed with information.
 
 ### Technologies and Resources
 

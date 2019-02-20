@@ -1,1 +1,167 @@
+body {
+  font-family: "HelveticaNeue-light", sans-serif;
+  color: #252525;
+}
 
+h1 {
+  font: {
+  family: "HelveticaNeue-thin", sans-serif;
+  weight: 100;
+  size: 30px;
+  }
+  color: #D82310;
+}
+
+h2 {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  color: #3A56A2;
+}
+
+h3 {
+  color: #3A56A2;
+}
+
+h4 {
+  margin: 0;
+  color: #3A56A2;
+  padding-bottom: 12px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #DDDDDD;
+}
+
+.sub-head {
+  color: #444444;
+}
+
+.slash {
+  color: #CCCCCC;
+}
+
+.nav-container {
+border-bottom: solid 1px #EEEEEE;
+}
+
+.content-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.content {
+  border: 1px solid #DDDDDD;
+  border-top: 0;
+  padding: 0 10px;
+  z-index: 2;
+  font-family: "HelveticaNeue-light", sans-serif;
+  letter-spacing: .5px;
+  line-height: 1.35em;
+  li {
+    padding-bottom: .75em;
+  }
+  a {
+    text-decoration: none;
+    color: #C73724;
+  }
+  .first-p {
+    padding-top: 15px;
+    margin-top: 18px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 9px;
+  }
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -16px
+}
+
+.tab-active {
+  border: 1px solid #DDDDDD;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  padding: 0 10px;
+  border-bottom: 0;
+  width: auto;
+}
+
+.tab-passive {
+  border: 0;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 0 10px;
+  width: auto;
+  a {
+    text-decoration: none;
+    color: #D82310;
+  }
+}
+
+.tab-space {
+  border-bottom:1px solid #DDDDDD;
+  width: 100%;
+}
+
+
+// navbar classes & IDs (begin)
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  color: #777777;
+  height: 40px;
+  align-items: center;
+}
+
+#menu-icon {
+  margin-top: 3px;
+  margin-right: 5px;
+}
+#moon-icon {
+  margin-bottom: 5%;
+}
+// navbar classes & IDs (end)
+
+@mixin buttonify {
+  color: white;
+  padding: 3px 9px;
+  font-size: 13.5px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.buttons {
+  margin-top: 2%;
+  .exercise {
+    @include buttonify;
+    background-color: #0199CF;
+  }
+  .day {
+    @include buttonify;
+    background-color: #D82310;
+  }
+  .duration {
+    @include buttonify;
+    background-color: #DDDDDD;
+  }
+}
+
+.arrow-association {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.down-arrow {
+  padding-left: 15px;
+}

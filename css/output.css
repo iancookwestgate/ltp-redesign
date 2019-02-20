@@ -62,6 +62,12 @@ hr {
     margin-top: 0;
     margin-bottom: 9px; }
 
+#click-fold {
+  display: none; }
+
+#click-fold-two {
+  display: none; }
+
 .tabs {
   display: flex;
   flex-direction: row;

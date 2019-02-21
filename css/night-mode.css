@@ -1,0 +1,37 @@
+body {
+  background-color: #20252C;
+  color: #A9B2C0; }
+
+.buttons .duration {
+  background-color: #495365; }
+
+.navbar {
+  color: #A9B2C0; }
+
+.nav-container {
+  background-color: black;
+  border-color: #495365; }
+
+a,
+h1 {
+  color: #F16372; }
+
+h2,
+h3,
+h4 {
+  color: #41B0F5; }
+
+.sub-head {
+  color: #A9B2C0; }
+
+hr,
+.tab-space,
+.tab-passive {
+  border-color: #495365; }
+
+.tab-active,
+.content {
+  background-color: #272C35;
+  border-color: #495365; }
+
+/*# sourceMappingURL=night-mode.css.map */

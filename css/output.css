@@ -52,9 +52,6 @@ hr {
   line-height: 1.35em; }
   .content li {
     padding-bottom: .75em; }
-  .content a {
-    text-decoration: none;
-    color: #C73724; }
   .content .first-p {
     padding-top: 15px;
     margin-top: 18px; }
@@ -86,9 +83,10 @@ hr {
   border-bottom: 1px solid #DDDDDD;
   padding: 0 10px;
   width: auto; }
-  .tab-passive a {
-    text-decoration: none;
-    color: #D82310; }
+
+a {
+  text-decoration: none;
+  color: #D82310; }
 
 .tab-space {
   border-bottom: 1px solid #DDDDDD;

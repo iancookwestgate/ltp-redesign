@@ -10,15 +10,21 @@ Write about what the project does, what inspired you, what its goals are, what i
 
 ### Images
 
-Screenshots of your Sketch wireframes should go here. Make sure to include all versions (if you have different mobile, tablet, desktop, etc.) designs. Use Dropbox or another free image hosting service to host your images.
+Mobile sketch: ![mobile sketch](img/readme-mobile.JPG)
+
+Desktop sketch: ![desktop sketch](img/readme-desktop.JPG)
+
+Mobile prototype: ![mobile prototype](img/mobile-prototype.png)
+
+Desktop prototype: ![desktop prototype](img/desktop-prototype.png)
 
 #### Desktop Version
 
-![desktop user interface](link-to-screenshot-here)
+![desktop user interface](img/desktop-sample.png)
 
 #### Mobile Version
 
-![mobile user interface](link-to-screenshot-here)
+![mobile user interface](img/mobile-sample.png)
 
 ### User Stories
 

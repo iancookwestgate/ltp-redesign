@@ -5,7 +5,7 @@
     <script src="js/scripts.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/output.css">
-    <link rel="stylesheet" href="css/night-mode.css">
+    <link id="nightify" rel="stylesheet" href="css/night-mode.css" disabled="disabled">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn to Program Site Redesign</title>
   </head>
@@ -14,8 +14,9 @@
       <div class="navbar">
         <p>Next</p>
         <div class="go-right">
-          <img id="menu-icon" src="img/menu-icon.png" alt="Small image icon.">
+          <span id="test"><img id="menu-icon" src="img/menu-no-bknd.png" alt="Small image icon."></span>
           <img id="moon-icon" src="img/moon-icon-adjusted.png" alt="Small moon icon.">
+          <img id="sun-icon" src="img/basic-sun-symbol.png" alt="Small sun icon">
         </div>
       </div>
     </div>
@@ -31,16 +32,16 @@
       </div>
       <div class="tabs">
 
-        <div class="tab-active">
+        <div class="tab-active" id="text-button">
           <p>Text</p>
         </div>
-        <div class="tab-passive">
-          <p><a href="#">Setup</a></p>
+        <div class="tab-passive" id="setup-button">
+          <p>Setup</p>
         </div>
         <div class="tab-space">
         </div>
       </div>
-      <div class="content">
+      <div id="content-tab" class="content">
         <p class="first-p"><strong>Goal:</strong> Continue practicing the web
           design process and familiarizing
           yourself with Sketch, while also
@@ -81,6 +82,16 @@
           </ol>
         </div>
       </div>
+
+      <div id="setup-tab" class="content">
+        <p class="first-p"><strong>Goal:</strong> This intention of this section is to provide easy access to links and pages that Epicodus students routinely have to return to. From how to set up your .pairs page to how to set up Sass with your CSS, this tab makes the life of the Epicodus student much easier and requires less routine digging around the website.</p>
+        <ul>
+          <li>How To Set Up Your .pairs File: https://www.learnhowtoprogram.com/intro-to-programming/git-html-and-css/practice-git-project-setup</li>
+          <li>Configuring and using Sass: https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/configuring-and-using-sass</li>
+          <li>Using CSS Grids: https://www.learnhowtoprogram.com/user-interfaces/responsive-design-development-environments/using-css-grids</li>
+        </ul>
+      </div>
+
     </div>
   </body>
 </html>

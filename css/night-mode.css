@@ -34,4 +34,11 @@ hr,
   background-color: #272C35;
   border-color: #495365; }
 
+.tab-passive {
+  color: #F16372; }
+
+#sun-icon {
+  width: 28px;
+  height: 29px; }
+
 /*# sourceMappingURL=night-mode.css.map */

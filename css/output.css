@@ -59,16 +59,22 @@ hr {
     margin-top: 0;
     margin-bottom: 9px; }
 
+#setup {
+  display: none; }
+
 #click-fold {
   display: none; }
 
 #click-fold-two {
   display: none; }
 
+#sun-icon {
+  display: none; }
+
 .tabs {
   display: flex;
   flex-direction: row;
-  margin-bottom: -16px; }
+  margin-bottom: -18px; }
 
 .tab-active {
   border: 1px solid #DDDDDD;
@@ -82,7 +88,8 @@ hr {
   border: 0;
   border-bottom: 1px solid #DDDDDD;
   padding: 0 10px;
-  width: auto; }
+  width: auto;
+  color: #D82310; }
 
 a {
   text-decoration: none;

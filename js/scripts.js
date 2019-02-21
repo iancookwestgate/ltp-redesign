@@ -14,6 +14,36 @@ $(document).ready(function() {
     $("#click-fold").hide();
   });
 
+  $("#moon-icon").click(function(event) {
+    event.preventDefault();
+    $("#nightify").removeAttr("disabled");
+    $("#sun-icon").show();
+    $("#moon-icon").hide();
+  });
+
+  $("#sun-icon").click(function(event) {
+    event.preventDefault();
+    $("#nightify").attr('disabled', 'disabled');
+    $("#sun-icon").hide();
+    $("#moon-icon").show();
+  })
+
+  $("#setup-button").click(function(event) {
+    event.preventDefault();
+    $("#content-tab").hide();
+    $("#setup-tab").show();
+    $("#setup-button").attr('class', 'tab-active')
+    $("#text-button").attr('class', 'tab-passive')
+  })
+
+  $("#text-button").click(function(event) {
+    event.preventDefault();
+    $("#content-tab").show();
+    $("#setup-tab").hide();
+    $("#text-button").attr('class', 'tab-active')
+    $("#setup-button").attr('class', 'tab-passive')
+  })
+
 
 
 

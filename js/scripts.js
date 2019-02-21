@@ -19,6 +19,8 @@ $(document).ready(function() {
     $("#nightify").removeAttr("disabled");
     $("#sun-icon").show();
     $("#moon-icon").hide();
+    $("#night-menu").show();
+    $("#day-menu").hide();
   });
 
   $("#sun-icon").click(function(event) {
@@ -26,6 +28,8 @@ $(document).ready(function() {
     $("#nightify").attr('disabled', 'disabled');
     $("#sun-icon").hide();
     $("#moon-icon").show();
+    $("#night-menu").hide();
+    $("#day-menu").show();
   })
 
   $("#setup-button").click(function(event) {

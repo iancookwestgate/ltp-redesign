@@ -109,9 +109,12 @@ a {
   height: 40px;
   align-items: center; }
 
-#menu-icon {
+.menu-icon {
   margin-top: 3px;
   margin-right: 5px; }
+
+#night-menu {
+  display: none; }
 
 #moon-icon {
   margin-bottom: 5%; }
